@@ -1,3 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(180, 220, 255);
+}
+
+.container {
+  width: 704px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.textarea {
+  width: 704px;
+  height: 150px;
+}
+
+.keyboard {
+  width: 704px;
+  height: auto;
+  background-color: rgb(85, 157, 196);
+  overflow: hidden;
+}
+
+.key-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 704px;
+  margin: 10px 0;
+  gap: 5px;
+}
+
+.key {
+  width: 40px;
+  height: 40px;
+  gap: 5px;
+  border-radius: 2px;
+  background-color: rgb(7, 202, 220);
+}
+
+.backspace {
+  width: 100px;
+  background-color: rgb(0, 173, 196);
+}
+
+.tab {
+  width: 50px;
+  background-color: rgb(0, 173, 196);
+}
+
+.del {
+  width: 44px;
+  background-color: rgb(0, 173, 196);
+}
+
+.caps {
+  width: 100px;
+  background-color: rgb(0, 173, 196);
+}
+
+.enter {
+  width: 86px;
+  background-color: rgb(0, 173, 196);
+}
+
+.shift-l {
+  width: 100px;
+  background-color: rgb(0, 173, 196);
+}
+
+.shift-r {
+  width: 86px;
+  background-color: rgb(0, 173, 196);
+}
+
+.ctrl {
+  background-color: rgb(0, 173, 196);
+}
+
+.win {
+  background-color: rgb(0, 173, 196);
+}
+
+.alt {
+  background-color: rgb(0, 173, 196);
+}
+
+.space {
+  width: 323px;
+}
+
+.arr-t {
+  background-color: rgb(0, 173, 196);
+}
+
+.arr-l {
+  background-color: rgb(0, 173, 196);
+}
+
+.arr-b {
+  background-color: rgb(0, 173, 196);
+}
+
+.arr-r {
+  background-color: rgb(0, 173, 196);
+}
 
 /*# sourceMappingURL=style.css.map */
