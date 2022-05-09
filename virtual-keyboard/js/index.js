@@ -27,6 +27,8 @@ keys.classList.add('key-block')
 keyboard.appendChild(keys)
 
 
+body.appendChild(container)
+
 //fill keyboard
 for (let i=0;i<64;i++) {
     if (i === 13) {
@@ -164,14 +166,15 @@ for (let i=0;i<64;i++) {
     }
 }
 
+
+const warning = document.createElement('p')
+warning.innerHTML = 'К сожалению, я не успею доделать работу до конца дедлайна. Я сделал это задание на 20 баллов.'
+container.appendChild(warning)
+warning.classList.add('warning')
+
+
 //Capitalize functional
 
 addEventListener('keyup', (event) => {
     console.log(event.key)
 })
-
-
-
-
-
-body.appendChild(container)

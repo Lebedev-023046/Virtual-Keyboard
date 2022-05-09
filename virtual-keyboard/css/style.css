@@ -136,4 +136,10 @@ body {
   background-color: rgb(0, 173, 196);
 }
 
+.warning {
+  margin-top: 17px;
+  text-align: center;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
