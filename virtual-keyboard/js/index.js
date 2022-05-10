@@ -168,7 +168,7 @@ for (let i=0;i<64;i++) {
 
 
 const warning = document.createElement('p')
-warning.innerHTML = 'К сожалению, я не успею доделать работу до конца дедлайна. Я сделал это задание на 20 баллов.'
+warning.innerHTML = 'К сожалению, я не успею доделать работу до конца дедлайна'
 container.appendChild(warning)
 warning.classList.add('warning')
 
